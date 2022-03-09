@@ -1,0 +1,200 @@
+/*GLOBAL*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.clear {
+    clear: both;
+}
+
+
+/*SECTION HEADER*/
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: #27242b;
+    color: #ffffff;
+    padding-bottom: 0;
+}
+#header .container-fluid header {
+    min-height: 70px;
+    border-bottom: #bac0bf 0.2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-4 {
+    display: flex;
+    justify-content: center;
+}
+#header .container-fluid header .col-4 .col {
+    padding: 3%;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+}
+#header .container-fluid header .col-4 .col a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+}
+.col-3 .navstyle {
+    position: relative;
+    display: flex;
+    padding: 3%;
+    justify-content: center;
+    color: #3d9f96;
+    font-weight: bold;
+}
+.col-5 {
+    display: flex;
+    justify-content: center;
+}
+#header .container-fluid div {
+    text-align: center;
+}
+#header .container-fluid div .titre {
+    font-size: 30px;
+}
+.colorgreen {
+    color: #3d9f96;
+}
+.bold {
+    font-weight: bold;
+}
+
+                      /*MAIN*/
+
+/*SECTION SOCIAL MEDIA*/
+#socialmedia {
+    background-color: #f7f7f7;
+} 
+#socialmedia .container-fluid .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+#socialmedia .container-fluid .sous-titre {
+    position: relative;
+    margin-top: 2%;
+    font-weight: bold;
+    text-align: center;
+}
+#socialmedia .media {
+    padding: 40px 0 40px 0;
+}
+
+/*SECTION CHECKOUTNEWAPP*/
+#checkoutnewapp .container-fluid {
+    padding: 40px 0 40px 0;
+}
+#checkoutnewapp .container-fluid .newapp {
+    text-align: center;
+}
+#checkoutnewapp .container-fluid .newapp p{
+    color: #cac7c7;
+}
+#checkoutnewapp .container-fluid .awesome {
+    background-image: url('img/map_bg.png');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#checkoutnewapp .container-fluid .awesome p {
+    color: #cac7c7;
+}
+
+/*SECTION AVATAR*/
+#avatar .container-fluid {
+    text-align: center;
+    background-image: url('img/seperator2.jpg');
+    color: #ababab;
+    padding: 20px 0 20px 0;
+}
+
+/*SECTION SCREENSHOT*/
+#screenshot .container-fluid {
+    padding-top: 40px;
+}
+#screenshot .container-fluid p {
+    padding-left: 6%;
+    font-size:2em;
+}
+#screenshot .container-fluid .screen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*SECTION LITMUS RESPONSIVE*/
+#litmus-responsive .litmus-resp {
+    max-width: 60%;
+    margin: 4% auto;
+} 
+#litmus-responsive .litmus .col1 {
+    width: 50%;
+}
+#litmus-responsive .litmus .col2 {
+    width: 50%;
+}
+#litmus-responsive .litmus {
+    display: flex;
+    flex-direction: row;
+}
+#litmus-responsive .responsive {
+    display: flex;
+    flex-direction: row;
+    justify-items: auto;
+}
+
+/*SECTION FOOTER*/
+.footer-top {
+    background-color: #f7f7f7;
+    padding: 40px 0 50px 0;
+}
+footer .col1 {
+    float: left;
+    width: 33%;
+}
+footer .col2 {
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-top: 4%;
+}
+footer .col3 {
+    float: right;
+    width: 33%;
+    margin-top: 4%;
+}
+footer p {
+    color: #cac7c7;
+}
+footer li {
+    color: #cac7c7;
+}
+footer h4 {
+    font-size: medium;
+    font-weight: bold;
+}
+footer .footer-bottom .social-media {
+    float: right;
+    width: 20%;
+    text-align: end;
+}
